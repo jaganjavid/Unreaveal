@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Unreveal Effects for Content</title>
+		<link rel="icon" type="image/x-icon" href="./img/fav.jpeg">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+	</head>
+	<body class="demo">
+		<main>
+			<div class="content">
+				<figure class="content__item">
+					<h2 class="content__item-title oh"><span class="oh__inner">El Amante</span></h2>
+					<div class="content__item-img-wrap">
+						<div class="content__item-img" style="background-image: url(./img/5.jpeg)"></div>
+					</div>
+					<figcaption class="content__item-caption">
+						You could be my unintended
+						Choice to live my life extended
+						You could be the one I'll always love
+					</figcaption>
+				</figure>
+			</div>
+			<div class="content__overlay"></div>
+			<div class="preview">
+				<div class="preview__item">
+					<div class="preview__item-img-outer">
+						<div class="preview__item-img-wrap">
+							<div class="preview__item-img" style="background-image: url(./img/5.jpeg)"></div>
+						</div>
+					</div>
+					<h2 class="preview__item-title oh"><span class="oh__inner">Lover</span></h2>
+					<div class="preview__item-box preview__item-box--left">
+						<h3 class="preview__item-box-title oh"><span class="oh__inner">Setting</span></h3>
+						<p class="preview__item-box-desc">At the violet hour, when the eyes and back turn upward from the desk, when the human engine waits.</p>
+					</div>
+					<div class="preview__item-box preview__item-box--right">
+						<h3 class="preview__item-box-title oh"><span class="oh__inner">Location</span></h3>
+						<p class="preview__item-box-desc">April is the cruellest month, breeding lilacs out of the dead land, mixing memory and desire, stirring dull roots with spring rain.</p>
+					</div>
+				</div>
+				<button class="unbutton preview__back" aria-label="Back to content">
+					<svg width="200px" height="36px" viewBox="0 0 50 9">
+						<path vector-effect="non-scaling-stroke" d="m0 4.5 5-3m-5 3 5 3m45-3h-77"></path>
+					</svg>
+				</button>
+			</div>
+		</main>
+		<script type="module" src="./js/index.js"></script>
+	</body>
+</html>
